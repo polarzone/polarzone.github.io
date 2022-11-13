@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>高等数学-三角、指数及对数函数 | polarzone</title><meta name="author" content="polarzone"><meta name="copyright" content="polarzone"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="三角函数弧度除了以角度作为计量单位，此外还可以使用弧度作为角的计量单位，每 $\pi$ 单位弧度对应 $180^\circ$ 的角。  用弧度单位的角 &#x3D; ${\pi\over{180}}\times用度量单位的角$  三角函数对于一个角 a，对于其中一边的垂线构成的三角形，角 a 对面的边称为对边，直角对面的边称为斜边，而剩余那条与角 a 相邻的边称为邻边。 对于三条边，有下列正弦、余">
+<meta property="og:type" content="article">
+<meta property="og:title" content="高等数学-三角、指数及对数函数">
+<meta property="og:url" content="http://polarzone.cn/2022/11/12/math/index.html">
+<meta property="og:site_name" content="polarzone">
+<meta property="og:description" content="三角函数弧度除了以角度作为计量单位，此外还可以使用弧度作为角的计量单位，每 $\pi$ 单位弧度对应 $180^\circ$ 的角。  用弧度单位的角 &#x3D; ${\pi\over{180}}\times用度量单位的角$  三角函数对于一个角 a，对于其中一边的垂线构成的三角形，角 a 对面的边称为对边，直角对面的边称为斜边，而剩余那条与角 a 相邻的边称为邻边。 对于三条边，有下列正弦、余">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://polarzone.cn/images/background.webp">
+<meta property="article:published_time" content="2022-11-12T12:33:16.000Z">
+<meta property="article:modified_time" content="2022-11-13T08:13:18.750Z">
+<meta property="article:author" content="polarzone">
+<meta property="article:tag" content="函数">
+<meta property="article:tag" content="三角">
+<meta property="article:tag" content="指数">
+<meta property="article:tag" content="对数">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://polarzone.cn/images/background.webp"><link rel="shortcut icon" href="/images/favicon.png"><link rel="canonical" href="http://polarzone.cn/2022/11/12/math/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '高等数学-三角、指数及对数函数',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-13 16:13:18'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/styles.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/background.webp')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">polarzone</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">高等数学-三角、指数及对数函数</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-11-12T12:33:16.000Z" title="发表于 2022-11-12 20:33:16">2022-11-12</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-13T08:13:18.750Z" title="更新于 2022-11-13 16:13:18">2022-11-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="高等数学-三角、指数及对数函数"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h2><h3 id="弧度"><a href="#弧度" class="headerlink" title="弧度"></a>弧度</h3><p>除了以角度作为计量单位，此外还可以使用弧度作为角的计量单位，<br>每 $\pi$ 单位弧度对应 $180^\circ$ 的角。</p>
+<blockquote>
+<p>用弧度单位的角 &#x3D; ${\pi\over{180}}\times用度量单位的角$</p>
+</blockquote>
+<h3 id="三角函数-1"><a href="#三角函数-1" class="headerlink" title="三角函数"></a>三角函数</h3><p>对于一个角 a，对于其中一边的垂线构成的三角形，角 a 对面的边称为<code>对边</code>，直角对面的<br>边称为<code>斜边</code>，而剩余那条与角 a 相邻的边称为<code>邻边</code>。</p>
+<p>对于三条边，有下列<code>正弦</code>、<code>余弦</code>、<code>正切</code>关系</p>
+<p>$$sin(\theta)&#x3D;{对边\over斜边}$$</p>
+<p>$$cos(\theta)&#x3D;{邻边\over斜边}$$</p>
+<p>$$tan(\theta)&#x3D;{对边\over邻边}$$</p>
+<p>还有对应的<code>余割</code>、<code>正割</code>、<code>余切</code>，与上列对应呈倒数关系。</p>
+<p>$$csc(\theta)&#x3D;{1\over{sin(\theta)}}$$</p>
+<p>$$sec(\theta)&#x3D;{1\over{cos(\theta)}}$$</p>
+<p>$$cot(\theta)&#x3D;{1\over{tan(\theta)}}$$</p>
+<h3 id="特殊角的三角函数值"><a href="#特殊角的三角函数值" class="headerlink" title="特殊角的三角函数值"></a>特殊角的三角函数值</h3><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">0</th>
+<th align="center">$\pi\over6$</th>
+<th align="center">$\pi\over4$</th>
+<th align="center">$\pi\over3$</th>
+<th align="center">$\pi\over2$</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">sin</td>
+<td align="center">0</td>
+<td align="center">$1\over2$</td>
+<td align="center">$1\over{\sqrt2}$</td>
+<td align="center">${\sqrt3}\over2$</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">cos</td>
+<td align="center">1</td>
+<td align="center">${\sqrt3}\over2$</td>
+<td align="center">$1\over{\sqrt2}$</td>
+<td align="center">$1\over2$</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">tan</td>
+<td align="center">0</td>
+<td align="center">$1\over{\sqrt3}$</td>
+<td align="center">1</td>
+<td align="center">$\sqrt3$</td>
+<td align="center">*</td>
+</tr>
+</tbody></table>
+<h3 id="三角函数的定义域"><a href="#三角函数的定义域" class="headerlink" title="三角函数的定义域"></a>三角函数的定义域</h3><p>三角函数的定义域并没有什么限制，其中 [0, $2\pi$] 囊括了坐标的四个象限。</p>
+<p>此时计算三角函数，应取角射线和 x 轴最小的角对应的三角函数，这个角称为<code>参考角</code>，<br>而三角函数的正负，取决于其对应象限的横纵坐标的正负。</p>
+<p>由于定义域可以无限延申，而三角函数是以一个圆为周期不断重复的，所以三角函数以<br>$2\pi$ 为一个<code>周期</code>。</p>
+<h3 id="三角函数的图像"><a href="#三角函数的图像" class="headerlink" title="三角函数的图像"></a>三角函数的图像</h3><p>三角函数都是围绕周期循环的，因此，三角函数不是奇函数就是偶函数（这里就不放图了）。</p>
+<ul>
+<li>奇函数：sin、tan、csc、cot</li>
+<li>偶函数：cos、sec</li>
+</ul>
+<h3 id="三角函数运算"><a href="#三角函数运算" class="headerlink" title="三角函数运算"></a>三角函数运算</h3><p>三角函数中有下列几个非常重要的<strong>恒等式</strong>。</p>
+<p><code>毕达哥拉斯定理</code>： $\bbox[yellow]{sin^2(x)+cos^2(x)&#x3D;1}$</p>
+<blockquote>
+<p>可以任意变化恒等式，比如在等式两侧同时除以任意三角函数的平方，得到需要的等式。</p>
+</blockquote>
+<p>六个三角函数两两<code>互余</code>，以音节“co”开头的，这是“互余”（complementary）的简称，因<br>此它们与 $\pi\over2$ 有以下关系：</p>
+<p>$$sin(x)&#x3D;cos({\pi\over2} - \pi)$$</p>
+<p>$$tan(x)&#x3D;cot({\pi\over2} - \pi)$$</p>
+<p>$$csc(x)&#x3D;sec({\pi\over2} - \pi)$$</p>
+<blockquote>
+<p>三角左右可以互换(更换函数位置，结果相等)</p>
+</blockquote>
+<p>此外还有下列<code>恒等式</code>:</p>
+<p>$$sin(A+B)&#x3D;sin(A)cos(A)+cos(A)sin(B)$$</p>
+<p>$$cos(A+B)&#x3D;cos(A)cos(A)-sin(A)sin(B)$$</p>
+<blockquote>
+<p>此外还可同时切换符号</p>
+</blockquote>
+<p>$$sin(A-B)&#x3D;sin(A)cos(A)-cos(A)sin(B)$$</p>
+<p>$$cos(A-B)&#x3D;cos(A)cos(A)+sin(A)sin(B)$$</p>
+<blockquote>
+<p>上列公式当 A 与 B 相等时就成了二倍角公式，倍角公式对于偶数倍角一样适用。<br>上列公式也可与毕达哥拉斯定理联立，构成别样的等式。</p>
+</blockquote>
+<h2 id="指数函数"><a href="#指数函数" class="headerlink" title="指数函数"></a>指数函数</h2><p>指数函数由<strong>非负数</strong>构成<code>底数</code>的常量，和<code>指数</code>作为<code>自变量</code>构成，得到称为<code>幂</code>的<br><code>因变量</code>的函数。</p>
+<blockquote>
+<p>底数不可为负数，若指数为分数可能会导致<strong>开根一个负数</strong>的情况。</p>
+</blockquote>
+<p>形如：</p>
+<p>$${底数}^{指数}$$</p>
+<h3 id="指数运算"><a href="#指数运算" class="headerlink" title="指数运算"></a>指数运算</h3><p>常见的运算等式：</p>
+<p>$$b^0&#x3D;1$$</p>
+<p>$$b^1&#x3D;b$$</p>
+<p>$${b^x}{b^y}&#x3D;b^{x+y}$$</p>
+<p>$${b^x\over{b^y}}&#x3D;{b^{x-y}}$$</p>
+<p>$$(b^x)^y&#x3D;b^{xy}$$</p>
+<h2 id="对数函数"><a href="#对数函数" class="headerlink" title="对数函数"></a>对数函数</h2><p>对数函数是以<code>幂</code>为<code>自变量</code>，<strong>非负数</strong>的 <code>底数</code> <code>常量</code>，得到<code>因变量</code>为<code>指数</code>的<br>函数。</p>
+<blockquote>
+<p>不存在底数为 1 的对数</p>
+<p>自变量不能为负数，因此不能取一个负数的对数</p>
+<p>范围在 (0, 1) 之间的分数底数，等同于底数为相反数的负对数（因为<br>${1\over2^x}&#x3D;{2^{-x}}$），所以一般底数范围可视为 b &gt; 1。</p>
+</blockquote>
+<p>同等底数的对数函数与指数函数互为反函数(对数需 b &gt; 1 &amp;&amp; x &gt; 0)</p>
+<blockquote>
+<p>此时 <strong>指数的对数就是原始的数</strong> <strong>对数的指数就是原始的数</strong></p>
+</blockquote>
+<h3 id="对数运算"><a href="#对数运算" class="headerlink" title="对数运算"></a>对数运算</h3><p>常见的运算等式：</p>
+<p>$$log_b(1)&#x3D;0$$</p>
+<p>$$log_b(b)&#x3D;1$$</p>
+<p>$$log_b(xy)&#x3D;log_b(x)+log_b(y)$$</p>
+<p>$$log_b({x\over{y}})&#x3D;log_b(x)-log_b(y)$$</p>
+<p>$$log_b({x^y})&#x3D;ylog_b(x)$$</p>
+<p><strong>换底法则</strong>：</p>
+<p>$$log_b(x)&#x3D;{log_c(x)\over{log_c(b)}}$$</p>
+<blockquote>
+<p>此时说明 $log_b(x)log_c(b)&#x3D;log_c(x)$<br>说明不同底数的对数函数互为常数倍，$1\over{log_c(b)}$ 不包含自变量，视为常数。</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://polarzone.cn">polarzone</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://polarzone.cn/2022/11/12/math/">http://polarzone.cn/2022/11/12/math/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://polarzone.cn" target="_blank">polarzone</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%87%BD%E6%95%B0/">函数</a><a class="post-meta__tags" href="/tags/%E4%B8%89%E8%A7%92/">三角</a><a class="post-meta__tags" href="/tags/%E6%8C%87%E6%95%B0/">指数</a><a class="post-meta__tags" href="/tags/%E5%AF%B9%E6%95%B0/">对数</a></div><div class="post_share"><div class="social-share" data-image="/images/background.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/11/11/math/"><img class="next-cover" src="/images/background.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">高等数学-函数初解</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/11/11/math/" title="高等数学-函数初解"><img class="cover" src="/images/background.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-11</div><div class="title">高等数学-函数初解</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">polarzone</div><div class="author-info__description">学习过程中不写点东西作记录，总会忘得很快，所以打算写点东西记录学习过程</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/polarzone" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:hisur@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0"><span class="toc-number">1.</span> <span class="toc-text">三角函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%A7%E5%BA%A6"><span class="toc-number">1.1.</span> <span class="toc-text">弧度</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0-1"><span class="toc-number">1.2.</span> <span class="toc-text">三角函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E8%A7%92%E7%9A%84%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%80%BC"><span class="toc-number">1.3.</span> <span class="toc-text">特殊角的三角函数值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%9A%84%E5%AE%9A%E4%B9%89%E5%9F%9F"><span class="toc-number">1.4.</span> <span class="toc-text">三角函数的定义域</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%9A%84%E5%9B%BE%E5%83%8F"><span class="toc-number">1.5.</span> <span class="toc-text">三角函数的图像</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">1.6.</span> <span class="toc-text">三角函数运算</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%87%E6%95%B0%E5%87%BD%E6%95%B0"><span class="toc-number">2.</span> <span class="toc-text">指数函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">2.1.</span> <span class="toc-text">指数运算</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0%E5%87%BD%E6%95%B0"><span class="toc-number">3.</span> <span class="toc-text">对数函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E6%95%B0%E8%BF%90%E7%AE%97"><span class="toc-number">3.1.</span> <span class="toc-text">对数运算</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/12/math/" title="高等数学-三角、指数及对数函数"><img src="/images/background.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高等数学-三角、指数及对数函数"/></a><div class="content"><a class="title" href="/2022/11/12/math/" title="高等数学-三角、指数及对数函数">高等数学-三角、指数及对数函数</a><time datetime="2022-11-12T12:33:16.000Z" title="发表于 2022-11-12 20:33:16">2022-11-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/11/math/" title="高等数学-函数初解"><img src="/images/background.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高等数学-函数初解"/></a><div class="content"><a class="title" href="/2022/11/11/math/" title="高等数学-函数初解">高等数学-函数初解</a><time datetime="2022-11-11T14:49:39.000Z" title="发表于 2022-11-11 22:49:39">2022-11-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By polarzone</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container').forEach(node => {
+            if (node.hasAttribute('display')) {
+              btf.wrap(node, 'div', { class: 'mathjax-overflow' })
+            } else {
+              btf.wrap(node, 'span', { class: 'mathjax-overflow' })
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
